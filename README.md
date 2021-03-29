@@ -22,7 +22,12 @@ http://localhost:8080/crime/categories
 JSON output should be printed to the browser window/tab (like the following):
 {"categories":["all-crime","anti-social-behaviour","bicycle-theft","burglary","criminal-damage-arson","drugs","other-theft","possession-of-weapons","public-order","robbery","shoplifting","theft-from-the-person","vehicle-crime","violent-crime","other-crime"]}
 
-You can also create a runnable JAR with the following command (which will created under the target folder): 
+
+The other endpoint requires a postcode and date, e.g.:
+http://localhost:8080/crimes?postcode=e14ns&date=2021-02 
+
+
+You can also create a runnable JAR with the following command (which will be created under the target folder): 
 mvnw package
 
 
