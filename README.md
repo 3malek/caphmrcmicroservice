@@ -10,22 +10,24 @@
 
 You need to clone this repo someplace convenient on your workstation.
 
-Project is set up so that the main program runs with maven using (via command prompt): mvnw spring-boot:run
-(in Linux/Unix ./mvnw spring-boot:run)
+Project is set up so that the main program runs with maven (via command prompt under the top-level folder where you see a pom.xml file) using: 
+mvnw spring-boot:run
+(in Linux/Unix ./mvnw spring-boot:run).
 
-(Port 8080 will be used so this needs to be available in order for the program to run correctly)
+(Port 8080 will be used so this needs to be available in order for the program to run as expected).
 
 To check the server is working you can use the following URL (via an Internet browser, e.g IE, Firefox, etc):
 http://localhost:8080/crime/categories
 
-A JSON string should be printed to the browser window/tab (like the following):
+JSON output should be printed to the browser window/tab (like the following):
 {"categories":["all-crime","anti-social-behaviour","bicycle-theft","burglary","criminal-damage-arson","drugs","other-theft","possession-of-weapons","public-order","robbery","shoplifting","theft-from-the-person","vehicle-crime","violent-crime","other-crime"]}
 
-You can also create a runnable JAR with the following command:  mvnw package
+You can also create a runnable JAR with the following command (which will created under the target folder): 
+mvnw package
 
 
 ### Who do I talk to? ###
 
 Any issues, please use following contact details:
-urfanmalik@outlook.com
-07838 948 581
+urfanmalik2000@yahoo.co.uk
+07871 766 875
